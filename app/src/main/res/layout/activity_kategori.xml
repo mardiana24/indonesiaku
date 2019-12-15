@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".Kategori">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+        android:text="bisnis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnbusiness"
+        android:onClick="business"/>
+
+    <Button
+        android:text="hiburan"
+        android:layout_below="@+id/btnbusiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnentertainment"
+        android:onClick="entertainment" />
+
+    <Button
+        android:text="kesehatan"
+        android:layout_below="@+id/btnentertainment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnhealth"
+        android:onClick="health" />
+
+    <Button
+        android:text="pengetahuan"
+        android:layout_below="@+id/btnhealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnscience"
+        android:onClick="science" />
+
+    <Button
+        android:text="olahraga"
+        android:layout_below="@+id/btnscience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnsports"
+        android:onClick="sports" />
+
+    <Button
+        android:text="teknologi"
+        android:layout_below="@+id/btnsports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btntechnology"
+        android:onClick="technology" />
+
+</RelativeLayout>
+</ScrollView>
